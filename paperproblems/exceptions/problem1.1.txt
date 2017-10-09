@@ -21,3 +21,5 @@ function g() {
         console.log(err);
     }
 }
+
+// nothing, depends which functions are called

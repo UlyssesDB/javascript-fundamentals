@@ -8,4 +8,4 @@ for(var i = 0; i < 10; i++) {
             }
         }
     }
-}
+// removed curly bracket on last line

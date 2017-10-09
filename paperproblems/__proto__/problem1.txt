@@ -8,3 +8,5 @@ x2.__proto__ = x1;
 x3.__proto__ = x2;
 x4.__proto__ = x3;
 
+// all __proto__ are same as x1
+

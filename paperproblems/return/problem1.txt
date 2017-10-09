@@ -7,3 +7,4 @@ function f() {
 
 console.log(f());
 
+// should output 5

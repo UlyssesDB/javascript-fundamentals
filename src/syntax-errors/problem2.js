@@ -14,7 +14,7 @@ var myObj = {
     },
 
     beers: function() {
-        function g(){}}
+        function g(){}
         
         // lots and lots of code
     },
@@ -30,3 +30,5 @@ var myObj = {
 }
 
 myObj.init();
+
+// removed extra curly bracket from function g inside of beers object

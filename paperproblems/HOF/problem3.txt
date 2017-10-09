@@ -9,3 +9,5 @@ function f(g) {
 }
 
 console.log(f(k));
+
+// 15 >>> be careful of the order of operations (PEMDAS)

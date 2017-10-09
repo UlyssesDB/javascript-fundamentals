@@ -3,8 +3,10 @@ Spot the syntax error
 a = {
     b : {
         x : 10
-    }
+    },
     c : {
         y : 15
     }
 }
+
+// add comma between each object (i.e. after b's closing curly bracket)
