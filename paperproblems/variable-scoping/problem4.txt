@@ -15,3 +15,5 @@ function f() {
 
     }
 }
+
+// x, f(), y, g(), z, h(), p, k(), b    so all of them

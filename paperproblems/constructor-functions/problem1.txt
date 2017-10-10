@@ -13,3 +13,7 @@ function Person(name, age) {
 }
 
 var bob = new Person("Bob", 30);
+
+/*
+see FMP
+*/

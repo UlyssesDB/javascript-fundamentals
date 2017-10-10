@@ -13,7 +13,9 @@ var bob = new Person("Bob", 30);
 bob.constructor.prototype.salary = 40000;
 bob.__proto__.salary = bob.__proto__.salary + 100;
 Person.prototype.salary = Person.prototype.salary + 300;
-Person.__proto__.salary = Person.__proto__.salary + 400;
+Person.__proto__.salary = Person.__proto__.salary + 400; // not logged
 bob.salary = bob.salary + 50;
 
 console.log(bob.salary);
+
+// 40000 + 100 + 300 + 50 = 40450

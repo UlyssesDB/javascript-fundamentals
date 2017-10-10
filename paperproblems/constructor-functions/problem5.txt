@@ -10,3 +10,5 @@ function Person(name, age) {
 }
 
 var bob = Person("Bob", 30);
+
+// does not work unless 'new' is added ???

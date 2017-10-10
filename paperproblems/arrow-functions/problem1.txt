@@ -3,17 +3,26 @@ For each of the following expressions:
  - If it doesn't have a syntax error, what are the probable input and output types of the function?
 
 a) x => x + 1
+// no, should output x+1
 
 b) x, y => x * y
+// syntax error, x,y should be in parentheses
 
 c) x => { x * 2 }
+// syntax error, return should be wrapped in parentheses
+// i was wrong, it works ???
 
 d) (x, z) => {console.log(z); return x * z}
+// syntax error, two statements
+// i was wrong, it works ???
 
 e) x => console.log(z); return x * z
+// syntax error, two statements
 
 f) (x) => x * 2
+// no, should output x*2
 
 e) () => console.log("hello")
+// no, should output "hello"
 
 When you're done, check all your answers in the developer console.

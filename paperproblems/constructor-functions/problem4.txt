@@ -8,8 +8,11 @@ function Person(name, age) {
     }
 }
 
-var bob = Person("Bob", 30);
+var bob = Person("Bob", 30);  // ERROR 'new Person' ???
 
 bob.name = bob.name + " Dole";
 
 bob.greet();
+
+// with ERROR intact > TypeError
+// with ERROR fixed > "Hello my name is Bob Dole"
