@@ -3,12 +3,31 @@ In other words, replace all the function definitions with anonymous functions
 The final program should have one line
 
 
-function greet(x) {
+const greet = function (x) {
     console.log("hello " + x);
 }
 
-function call(f) {
+const = call function (f) {
     f("bob");
 }
 
 call(greet);
+
+//////////////////
+
+console.log("hello bob");
+
+//////////////////
+
+function z(){call(greet);}
+z();
+
+//////////////////
+
+var a = function() { console.log("hello bob");}
+a();
+
+//////////////////
+
+function z() {function greet(x) {console.log("hello " + x);} function call(f) {f("bob");} return call(greet);}
+z();

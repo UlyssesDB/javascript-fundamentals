@@ -12,3 +12,5 @@ function f(g) {
 }
 
 f(obj.bar);
+
+// TypeError    should be //f(obj.bar(4)); <<< but is still in error

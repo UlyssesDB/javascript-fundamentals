@@ -9,3 +9,17 @@ function foo() {
 var obj = {bar: foo, baz: 8};
 obj.foo();
 
+// TypeError: obj.foo is not a function
+
+
+
+there was a typo in paperproblemsthis/problem1, here is the correction:
+What is the output of this program?
+'use strict';
+function foo() {
+    console.log(this.baz);
+}
+var obj = {bar: foo, baz: 8};
+obj.bar();
+
+// 8
