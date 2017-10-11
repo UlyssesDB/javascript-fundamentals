@@ -11,3 +11,5 @@ var animalNames = animals.map(
                     function(animal) {return animal.name});
 
 console.log(animalNames.join());
+
+// returns a string of all animal names without spaces

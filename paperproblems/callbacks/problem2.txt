@@ -9,3 +9,5 @@ function h() {
 }
 
 setInterval(h, 1000);
+
+// console.log("Hello!") every 2000ms but each time it seems to add more Hello!

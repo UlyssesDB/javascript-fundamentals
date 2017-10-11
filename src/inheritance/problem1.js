@@ -6,7 +6,7 @@ class Shape {
 
 class Rectangle extends Shape {
         constructor(width, height) {
-              super("rectangle");
+              super("rectangle"); // should be given (width, height) ???
               this.width = width;
               this.height = height;
           }
@@ -32,7 +32,7 @@ class Square extends Rectangle {
     // Do not implement the area and perimeter methods. They should be inherited from Rectangle
     // The constructor has one argument
         constructor(size) {
-            super("square");
+            super("square"); // should be given (size) ???
             this.height = size;
             this.width = size;
         }
